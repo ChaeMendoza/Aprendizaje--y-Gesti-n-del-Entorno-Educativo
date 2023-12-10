@@ -1,0 +1,40 @@
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+  }
+  
+  .sidebar h2 {
+    color: #32b86c;
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 8px;
+  }
+
+  .sidebar li svg {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    background-color: #555;
+    color: #32b86c;
+  }
+  
