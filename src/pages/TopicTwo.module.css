@@ -6,7 +6,11 @@
     width: 700px;
 }
 
+.container ol {
+    text-align: left;
+}
+
 .container img {
-    width: 300px;
+    width: 400px;
     border-radius: 10px;
 }

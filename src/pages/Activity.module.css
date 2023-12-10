@@ -1,0 +1,21 @@
+.title {
+    color: #32b86c;
+}
+
+.container {
+    width: 700px;
+}
+
+.container ol {
+    text-align: left;
+}
+
+.container img {
+    width: 240px;
+    border-radius: 10px;
+}
+
+.container span {
+    color: rgb(50, 104, 184);
+    font-weight: bold;
+}

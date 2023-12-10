@@ -1,40 +1,62 @@
 .sidebar {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    padding-top: 20px;
-  }
-  
-  .sidebar h2 {
-    color: #32b86c;
-    text-align: center;
-  }
-  
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sidebar li {
-    padding: 8px;
-  }
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 20px;
+}
 
-  .sidebar li svg {
-    margin-right: 10px; /* Espacio entre el icono y el texto */
-  }
-  
-  .sidebar a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    display: block;
-  }
-  
-  .sidebar a:hover {
-    background-color: #555;
-    color: #32b86c;
-  }
-  
+.sidebar h2 {
+  color: #32b86c;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 8px;
+}
+
+.sidebar li svg {
+  margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+.sidebar .a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: block;
+}
+
+.sidebar .a:hover {
+  background-color: #555;
+  color: #32b86c;
+}
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar.closed {
+  width: 0;
+}
+
+.toggleButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.sidebar.active {
+  background-color: #555;
+  color: #32b86c;
+}
