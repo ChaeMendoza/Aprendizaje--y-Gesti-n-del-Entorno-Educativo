@@ -1,0 +1,44 @@
+{
+    "respuestas": {
+        "id": 1,
+        "pregunta": "Pregunta de ejemplo 1?",
+        "respuesta_correcta": "Opción de respuesta 1",
+        "respuesta_incorrecta": "Opción de respuesta 2",
+        "respuesta_incorrecta_dos": "Opción de respuesta 3"
+    },
+    "respuestas_dos": {
+        "id": 2,
+        "pregunta_dos": "Pregunta de ejemplo 1?",
+        "respuesta_correcta": "Opción de respuesta 1",
+        "respuesta_incorrecta": "Opción de respuesta 2",
+        "respuesta_incorrecta_dos": "Opción de respuesta 3"
+    },
+    "respuestas_tres": {
+        "id": 3,
+        "pregunta_tres": "Pregunta de ejemplo 1?",
+        "respuesta_correcta": "Opción de respuesta 1",
+        "respuesta_incorrecta": "Opción de respuesta 2",
+        "respuesta_incorrecta_dos": "Opción de respuesta 3"
+    },
+    "respuestas_cuatro": {
+        "id": 4,
+        "pregunta_cuatro": "Pregunta de ejemplo 1?",
+        "respuesta_correcta": "Opción de respuesta 1",
+        "respuesta_incorrecta": "Opción de respuesta 2",
+        "respuesta_incorrecta_dos": "Opción de respuesta 3"
+    },
+    "respuestas_cinco": {
+        "id": 5,
+        "pregunta_cinco": "Pregunta de ejemplo 1?",
+        "respuesta_correcta": "Opción de respuesta 1",
+        "respuesta_incorrecta": "Opción de respuesta 2",
+        "respuesta_incorrecta_dos": "Opción de respuesta 3"
+    },
+    "respuestas_seis": {
+        "id": 6,
+        "pregunta_seis": "Pregunta de ejemplo 1?",
+        "respuesta_correcta": "Opción de respuesta 1",
+        "respuesta_incorrecta": "Opción de respuesta 2",
+        "respuesta_incorrecta_dos": "Opción de respuesta 3"
+    }
+}

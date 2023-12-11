@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHome,
@@ -12,7 +12,6 @@ import {
 import styles from './Sidebar.module.css';
 
 const Sidebar = () => {
-    const location = useLocation();
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
     const handleToggleSidebar = () => {

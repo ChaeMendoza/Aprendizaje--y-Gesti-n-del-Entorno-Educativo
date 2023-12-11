@@ -1,0 +1,16 @@
+.title {
+    color: #32b86c;
+}
+
+.container {
+    width: 700px;
+}
+
+.container ul {
+    text-align: left;
+}
+
+.container img {
+    width: 400px;
+    border-radius: 10px;
+}
